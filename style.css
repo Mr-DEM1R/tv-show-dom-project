@@ -1,3 +1,17 @@
 #root {
-  color: red;
+  color: black;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+#root > * {
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.show-card{
+  border: 2px solid black;
 }
